@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sportsoriv.firebasetest.SendData">
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="9.48"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="true"
+                    android:scaleType="fitCenter"
+                    android:layout_marginBottom="10dp"
+                    app:srcCompat="@drawable/common_full_open_on_phone" />
+
+
+
+                <Button
+                    android:id="@+id/selectimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="9.48"
+                    android:text="Select Image"
+                    android:textColor="@color/white"
+                    android:textStyle="normal"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/register_button"
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/question1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Question 1"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                    <Button
+                        android:id="@+id/answer1_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="answer1"
+                        android:textColor="@color/white"
+                        android:textStyle="normal"
+                        android:background="@drawable/register_button"
+                        android:layout_marginLeft="5dp"
+                        />
+
+
+
+                        <Button
+                            android:id="@+id/answer1_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="answer2"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="@color/white"
+                            android:textStyle="normal"
+                            android:background="@drawable/register_button"
+                            />
+                        <Button
+                            android:id="@+id/answer1_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="answer3"
+                            android:textColor="@color/white"
+                            android:textStyle="normal"
+                            android:background="@drawable/register_button"
+                            android:layout_marginLeft="5dp"
+                            />
+
+                        <Button
+                        android:id="@+id/answer1_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="answer4"
+                            android:textColor="@color/white"
+                            android:textStyle="normal"
+                            android:background="@drawable/register_button"
+                            android:layout_marginLeft="5dp"
+                            />
+
+
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/Question2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Question 2"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <Button
+                                android:id="@+id/answer2_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="answer1"
+                                android:textColor="@color/white"
+                                android:textStyle="normal"
+                                android:background="@drawable/register_button"
+                                android:layout_marginLeft="5dp"
+                                />
+
+
+
+                            <Button
+                                android:id="@+id/answer2_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="answer2"
+                                android:layout_marginLeft="5dp"
+                                android:textColor="@color/white"
+                                android:textStyle="normal"
+                                android:background="@drawable/register_button"
+                                />
+                            <Button
+                                android:id="@+id/answer2_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="answer3"
+                                android:textColor="@color/white"
+                                android:textStyle="normal"
+                                android:background="@drawable/register_button"
+                                android:layout_marginLeft="5dp"
+                                />
+
+                            <Button
+                                android:id="@+id/answer2_4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="answer4"
+                                android:textColor="@color/white"
+                                android:textStyle="normal"
+                                android:background="@drawable/register_button"
+                                android:layout_marginLeft="5dp"
+                                />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/Question3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Question 3"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <Button
+                                android:id="@+id/answer3_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="answer1"
+                                android:textColor="@color/white"
+                                android:textStyle="normal"
+                                android:background="@drawable/register_button"
+                                android:layout_marginLeft="5dp"
+                                />
+
+
+
+                            <Button
+                                android:id="@+id/answer3_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="answer2"
+                                android:layout_marginLeft="5dp"
+                                android:textColor="@color/white"
+                                android:textStyle="normal"
+                                android:background="@drawable/register_button"
+                                />
+                            <Button
+                                android:id="@+id/answer3_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="answer3"
+                                android:textColor="@color/white"
+                                android:textStyle="normal"
+                                android:background="@drawable/register_button"
+                                android:layout_marginLeft="5dp"
+                                />
+
+                            <Button
+                                android:id="@+id/answer3_4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="answer4"
+                                android:textColor="@color/white"
+                                android:textStyle="normal"
+                                android:background="@drawable/register_button"
+                                android:layout_marginLeft="5dp"
+                                />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/Question4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Question 4"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+                <EditText
+                    android:id="@+id/answer4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:hint="Enter your answer"
+                    android:inputType="textAutoCorrect|textAutoComplete" />
+
+                <TextView
+                    android:id="@+id/Question5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Question 5"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+                <EditText
+                    android:id="@+id/answer5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:hint="Enter your answer"
+                    android:inputType="textAutoCorrect|textAutoComplete" />
+
+                <TextView
+                    android:id="@+id/Question6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Question 6"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+                <EditText
+                    android:id="@+id/answer6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:hint="Enter your answer"
+                    android:inputType="textAutoCorrect|textAutoComplete" />
+
+               <!-- <Button
+                    android:id="@+id/getlocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="9.48"
+                    android:text="Get Location"
+                    android:textColor="@color/white"
+                    android:textStyle="normal"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/register_button"
+                    />-->
+                <TextView
+
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+
+                    android:text="You Location:"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/locationtextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="9.48"
+                    android:text="Latidude:"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/locationtextView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="9.48"
+                    android:text="Longitude:"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="10dp"
+                    />
+
+                <Button
+                    android:id="@+id/send"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Send Data"
+                    android:textColor="@color/white"
+                    android:textStyle="normal"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/register_button"
+                    />
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+</RelativeLayout>
+

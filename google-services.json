@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "211159762908",
+    "firebase_url": "https://loginout-cd11c.firebaseio.com",
+    "project_id": "loginout-cd11c",
+    "storage_bucket": "loginout-cd11c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211159762908:android:9ba994b63907c09b",
+        "android_client_info": {
+          "package_name": "com.example.sportsoriv.firebasetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211159762908-2mq7mvv1g9rifeo6s0q5k90npnv20nma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlxaC3O-m5yicDAl4a2eNlSRHQX38lMyU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
